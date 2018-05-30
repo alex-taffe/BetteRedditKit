@@ -1,6 +1,0 @@
-framework module BetteRedditKit {
-  umbrella header "BetteRedditKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

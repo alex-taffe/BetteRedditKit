@@ -1,6 +1,0 @@
-framework module Pods_BetteRedditKit_Example {
-  umbrella header "Pods-BetteRedditKit_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

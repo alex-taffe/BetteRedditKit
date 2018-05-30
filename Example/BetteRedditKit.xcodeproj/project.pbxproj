@@ -13,7 +13,7 @@
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
 		ED83F68320348A760038D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED83F68120348A760038D96B /* Main.storyboard */; };
-		ED83F68F20348A760038D96B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F68E20348A760038D96B /* Tests.swift */; };
+		FA06A97220BF42D50019B722 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA06A97120BF42D50019B722 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,10 @@
 
 /* Begin PBXFileReference section */
 		0DFAF4259AED398AE49BC6AF /* Pods_BetteRedditKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetteRedditKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18C2ADEAC3A455FE58BBE287 /* BetteRedditKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BetteRedditKit.podspec; path = ../BetteRedditKit.podspec; sourceTree = "<group>"; };
+		18C2ADEAC3A455FE58BBE287 /* BetteRedditKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BetteRedditKit.podspec; path = ../BetteRedditKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25AB5603E242D34A4F87C3B2 /* Pods-BetteRedditKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetteRedditKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3AB20C0A7169CD33F88D45B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4528296EBE3D1405B1741E2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3AB20C0A7169CD33F88D45B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4528296EBE3D1405B1741E2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		58FE8FC9E93B4EE4C93BC94F /* Pods-BetteRedditKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetteRedditKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		837A237B18D63DF2F8FB1AB5 /* Pods-BetteRedditKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetteRedditKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetteRedditKit_Tests/Pods-BetteRedditKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA8AE51DBA8EE482B389853D /* Pods_BetteRedditKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetteRedditKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,9 @@
 		ED83F68420348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED83F68520348A760038D96B /* BetteRedditKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetteRedditKit.entitlements; sourceTree = "<group>"; };
 		ED83F68A20348A760038D96B /* BetteRedditKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetteRedditKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA06A96D20BF42C60019B722 /* BetteRedditKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetteRedditKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA06A97120BF42D50019B722 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +126,9 @@
 		ED83F68D20348A760038D96B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				ED83F68E20348A760038D96B /* Tests.swift */,
+				FA06A97120BF42D50019B722 /* Tests.swift */,
 				ED83F69020348A760038D96B /* Info.plist */,
+				FA06A96D20BF42C60019B722 /* BetteRedditKit_Example-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -195,6 +197,7 @@
 				TargetAttributes = {
 					ED83F67720348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					ED83F68920348A760038D96B = {
@@ -250,10 +253,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BetteRedditKit/BetteRedditKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetteRedditKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA06A97220BF42D50019B722 /* Tests.swift in Sources */,
 				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
 				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
 			);
@@ -333,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED83F68F20348A760038D96B /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +475,7 @@
 			baseConfigurationReference = 25AB5603E242D34A4F87C3B2 /* Pods-BetteRedditKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BetteRedditKit/BetteRedditKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -477,6 +483,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.BetteRedditKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/BetteRedditKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -486,6 +494,7 @@
 			baseConfigurationReference = 58FE8FC9E93B4EE4C93BC94F /* Pods-BetteRedditKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BetteRedditKit/BetteRedditKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -493,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.BetteRedditKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/BetteRedditKit_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
