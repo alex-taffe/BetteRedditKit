@@ -5,6 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/BetteRedditKit.svg?style=flat)](https://cocoapods.org/pods/BetteRedditKit)
 [![Platform](https://img.shields.io/cocoapods/p/BetteRedditKit.svg?style=flat)](https://cocoapods.org/pods/BetteRedditKit)
 
+## About
+
+BetteRedditKit is a library designed to help interacting with the Reddit API in Objective C and Swift on iOS, macOS, tvOS, and watchOS easier. It is currently still under development and should not be used in production.
+
+## Apps using BetteRedditKit:
+
+- [BetteReddit](https://github.com/alex-taffe/BetteReddit)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
