@@ -5,8 +5,5 @@ target 'BetteRedditKit_Example' do
 
   target 'BetteRedditKit_Tests' do
     inherit! :search_paths
-
-    pod 'Quick', '~> 1.3.0'
-    pod 'Nimble', '~> 7.0.2'
   end
 end
