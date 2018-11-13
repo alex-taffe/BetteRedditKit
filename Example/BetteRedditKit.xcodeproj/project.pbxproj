@@ -13,6 +13,14 @@
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
 		ED83F68320348A760038D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED83F68120348A760038D96B /* Main.storyboard */; };
+		FA862DE4219A4D9A00E4B855 /* testing-user.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA862DE3219A4D9A00E4B855 /* testing-user.plist */; };
+		FA862DEF219A515200E4B855 /* testing-user.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA862DE3219A4D9A00E4B855 /* testing-user.plist */; };
+		FA862DF0219A528000E4B855 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DEA219A4F0C00E4B855 /* MF_Base32Additions.m */; };
+		FA862DF1219A528300E4B855 /* OTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DE8219A4F0C00E4B855 /* OTPGenerator.m */; };
+		FA862DF2219A528600E4B855 /* TOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DE7219A4F0C00E4B855 /* TOTPGenerator.m */; };
+		FA862DF3219A52F800E4B855 /* OTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DE8219A4F0C00E4B855 /* OTPGenerator.m */; };
+		FA862DF4219A52FB00E4B855 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DEA219A4F0C00E4B855 /* MF_Base32Additions.m */; };
+		FA862DF5219A52FD00E4B855 /* TOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA862DE7219A4F0C00E4B855 /* TOTPGenerator.m */; };
 		FAFCD22F20C347FB0092B6B4 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFCD22E20C347FB0092B6B4 /* Tests.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +54,14 @@
 		ED83F68A20348A760038D96B /* BetteRedditKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetteRedditKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA06A96D20BF42C60019B722 /* BetteRedditKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetteRedditKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA862DE2219A451900E4B855 /* BetteRedditKit_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetteRedditKit_Example.entitlements; sourceTree = "<group>"; };
+		FA862DE3219A4D9A00E4B855 /* testing-user.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testing-user.plist"; sourceTree = "<group>"; };
+		FA862DE5219A4F0C00E4B855 /* OTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPGenerator.h; sourceTree = "<group>"; };
+		FA862DE6219A4F0C00E4B855 /* TOTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTPGenerator.h; sourceTree = "<group>"; };
+		FA862DE7219A4F0C00E4B855 /* TOTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTPGenerator.m; sourceTree = "<group>"; };
+		FA862DE8219A4F0C00E4B855 /* OTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPGenerator.m; sourceTree = "<group>"; };
+		FA862DE9219A4F0C00E4B855 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
+		FA862DEA219A4F0C00E4B855 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 		FAFCD22E20C347FB0092B6B4 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +108,7 @@
 		ED83F66F20348A760038D96B = {
 			isa = PBXGroup;
 			children = (
+				FA862DE2219A451900E4B855 /* BetteRedditKit_Example.entitlements */,
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
 				ED83F67A20348A760038D96B /* BetteRedditKit */,
 				ED83F68D20348A760038D96B /* Tests */,
@@ -126,9 +143,11 @@
 		ED83F68D20348A760038D96B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				FA862DEE219A4F1700E4B855 /* TOTP */,
 				FAFCD22E20C347FB0092B6B4 /* Tests.m */,
 				ED83F69020348A760038D96B /* Info.plist */,
 				FA06A96D20BF42C60019B722 /* BetteRedditKit_Example-Bridging-Header.h */,
+				FA862DE3219A4D9A00E4B855 /* testing-user.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -141,6 +160,19 @@
 				4528296EBE3D1405B1741E2A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		FA862DEE219A4F1700E4B855 /* TOTP */ = {
+			isa = PBXGroup;
+			children = (
+				FA862DE9219A4F0C00E4B855 /* MF_Base32Additions.h */,
+				FA862DEA219A4F0C00E4B855 /* MF_Base32Additions.m */,
+				FA862DE5219A4F0C00E4B855 /* OTPGenerator.h */,
+				FA862DE8219A4F0C00E4B855 /* OTPGenerator.m */,
+				FA862DE6219A4F0C00E4B855 /* TOTPGenerator.h */,
+				FA862DE7219A4F0C00E4B855 /* TOTPGenerator.m */,
+			);
+			path = TOTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +230,11 @@
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					ED83F68920348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,6 +269,7 @@
 			files = (
 				ED83F68020348A760038D96B /* Assets.xcassets in Resources */,
 				ED83F68320348A760038D96B /* Main.storyboard in Resources */,
+				FA862DE4219A4D9A00E4B855 /* testing-user.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA862DEF219A515200E4B855 /* testing-user.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +290,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BetteRedditKit/BetteRedditKit.framework",
 			);
@@ -262,7 +301,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetteRedditKit_Example/Pods-BetteRedditKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4F61A5DC31D73D5202B57A54 /* [CP] Check Pods Manifest.lock */ = {
@@ -308,7 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA862DF4219A52FB00E4B855 /* MF_Base32Additions.m in Sources */,
 				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
+				FA862DF5219A52FD00E4B855 /* TOTPGenerator.m in Sources */,
+				FA862DF3219A52F800E4B855 /* OTPGenerator.m in Sources */,
 				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA862DF2219A528600E4B855 /* TOTPGenerator.m in Sources */,
+				FA862DF0219A528000E4B855 /* MF_Base32Additions.m in Sources */,
+				FA862DF1219A528300E4B855 /* OTPGenerator.m in Sources */,
 				FAFCD22F20C347FB0092B6B4 /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BetteRedditKit/BetteRedditKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetteRedditKit_Example.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -481,7 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BetteRedditKit/BetteRedditKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetteRedditKit_Example.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -501,7 +546,6 @@
 			baseConfigurationReference = EAE614C126359D1464A7957A /* Pods-BetteRedditKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -512,7 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetteRedditKit_Example.app/Contents/MacOS/BetteRedditKit_Example";
 			};
 			name = Debug;
 		};
@@ -521,7 +565,6 @@
 			baseConfigurationReference = 837A237B18D63DF2F8FB1AB5 /* Pods-BetteRedditKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -532,7 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetteRedditKit_Example.app/Contents/MacOS/BetteRedditKit_Example";
 			};
 			name = Release;
 		};
